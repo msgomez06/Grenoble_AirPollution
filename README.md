@@ -6,24 +6,25 @@ Where possible, sample data will be given so function can be demonstrated.
 
 -Milton S. Gomez, July 22nd, 2021
 
-╭────────────────────────────────────────────────────────────────────────────╮
-│Folders:                                                                    │
-│                                                                            │
-│NN_data - includes numpy arrays and pickle files for input and target data  │
-│used when training/applying neural network. See folder readme for details.  │
-│                                                                            │
-│NN_results - includes predictions from the Neural Network using ERA5 and MPI│
-│based pressure fields. See folder readme for details.                       │
-│                                                                            │
-│obs_raw - includes raw data for observations from weather stations          │
-│                                                                            │
-│saves - includes .h5 files for saved keras models                           │
-│                                                                            │
-│logs - includes logs from neural network training callbacks                 │
-│                                                                            │
-│                                                                            │
-│---------------------------------------------                               │
-│Scripts:                                                                    │
+
+#Folders                                                                    
+                                                                            
+##NN_data 
+>includes numpy arrays and pickle files for input and target data used when training/applying neural network. See folder readme for details.
+
+##NN_results 
+>includes predictions from the Neural Network using ERA5 and MPI based pressure fields. See folder readme for details. 
+
+##obs_raw
+>includes raw data for observations from weather stations 
+
+##saves 
+>includes .h5 files for saved keras models
+
+##logs
+>includes logs from neural network training callbacks                 │
+
+#Scripts                                                                    │
 │                                                                            │
 │data_gen.py - data generator scripts for indexing and creating the data     │
 │    generator for training the neural network.                              │
